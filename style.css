@@ -47,18 +47,21 @@ p {
    background-image: url(img/flow01.png);
    background-size: cover;
    height: 150px;
+   background-position: bottom;
 
 }
 .box2 {
    background-image: url(img/flow02.png);
    background-size: cover;
    height: 150px;
+   background-position: bottom;
 
 }
 .box3 {
    background-image: url(img/flow03.png);
    background-size: cover;
    height: 150px;
+   background-position: bottom;
 
 }
 
@@ -72,20 +75,7 @@ footer {
   header {
     width: 100%;
   }
-
-  .nav-list {
-    width: 100%;
-  }
-
-  .nav-list-item {
-    width: 100%;
-    margin: 0 0 10px 0;
-  }
-
-  .social {
-    display: none;
-  }
-
+  
   .main-visual-content {
     width: 100%;
   }
@@ -94,48 +84,13 @@ footer {
     width: 100%;
     display: block;
   }
-
-  .blog {
-    width: 100%;
-    margin: 0;
+  
+  .box {
+    margin-top: 20px;
+    width: 90%;
   }
-
-  .blog-box {
-    padding-left: 2%;
-    padding-right: 2%;
+  
+  box2 {
+    margin-top: 20px;
   }
-
-  .blog-image {
-    width: 49%;
-  }
-
-  .blog-text {
-    width: 49%;
-    padding-top: 5px;
-  }
-
-  .sidebar {
-    width: 100%;
-  }
-
-  .sidebar-contents {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-
-  .instagram-box {
-    width: 48%;
-    padding-top: 48%;
-  }
-
-  .instagram-box:nth-child(odd) {
-    margin-right: 4%;
-  }
-
-  .pagination {
-    margin-bottom: 50px;
-  }
-}
-
-    
   
